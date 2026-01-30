@@ -1,0 +1,128 @@
+{
+  "department_related_questions": [
+    {
+      "id": 1,
+      "category": "department_related",
+      "question": "I am interested in the Department of Electrical Engineering. Can you list all the programs they are offering this spring?",
+      "expected_behavior": "Should return information about Electrical Engineering programs"
+    },
+    {
+      "id": 2,
+      "category": "department_related",
+      "question": "I have completed my 16 years of education in Computer Science. Am I eligible to apply for the M.Sc. Data Science program?",
+      "expected_behavior": "Should return eligibility criteria for M.Sc. Data Science"
+    },
+    {
+      "id": 3,
+      "category": "department_related",
+      "question": "Who is the current Dean of the Faculty of Mechanical Engineering?",
+      "expected_behavior": "Should return Dean information for Mechanical Engineering"
+    },
+    {
+      "id": 4,
+      "category": "department_related",
+      "question": "Does the Department of Architecture offer a Ph.D. program, or is it only for Master's students?",
+      "expected_behavior": "Should return information about Architecture programs"
+    },
+    {
+      "id": 5,
+      "category": "department_related",
+      "question": "I am looking for the Institute of Environmental Engineering & Research. What are the specific eligibility criteria for their M.Phil. Environmental Sciences?",
+      "expected_behavior": "Should return eligibility criteria for M.Phil. Environmental Sciences"
+    },
+    {
+      "id": 6,
+      "category": "department_related",
+      "question": "Can you tell me which department offers the M.Sc. Mining Engineering program?",
+      "expected_behavior": "Should identify the department offering Mining Engineering"
+    },
+    {
+      "id": 7,
+      "category": "department_related",
+      "question": "I heard the Department of Petroleum & Gas Engineering is highly ranked. Is there any mention of their world ranking in the prospectus?",
+      "expected_behavior": "Should return ranking information if available"
+    },
+    {
+      "id": 8,
+      "category": "department_related",
+      "question": "I want to do an Executive MBA. Does the Institute of Business and Management require any professional experience for this degree?",
+      "expected_behavior": "Should return requirements for Executive MBA"
+    },
+    {
+      "id": 9,
+      "category": "department_related",
+      "question": "Is there any specific department that deals with Transportation Engineering?",
+      "expected_behavior": "Should identify department for Transportation Engineering"
+    },
+    {
+      "id": 10,
+      "category": "department_related",
+      "question": "I am looking for the faculty list for the Department of Mathematics. Who is the Chairperson?",
+      "expected_behavior": "Should return faculty information for Mathematics department"
+    }
+  ],
+  "tricky_questions": [
+    {
+      "id": 11,
+      "category": "tricky",
+      "question": "I want to apply for M.Sc. Artificial Intelligence. Should I select the Department of Computer Science on my form, or is this program offered by another department?",
+      "expected_behavior": "Should clarify which department offers AI program"
+    },
+    {
+      "id": 12,
+      "category": "tricky",
+      "question": "I am interested in Geological Engineering. Is that the same as Geotechnical Engineering offered by the Civil Department, or is there a separate department for it?",
+      "expected_behavior": "Should distinguish between Geological and Geotechnical Engineering"
+    },
+    {
+      "id": 13,
+      "category": "tricky",
+      "question": "I live near the UET. Does the Department of Chemical Engineering offer any safety-related master's programs there?",
+      "expected_behavior": "Should return information about Chemical Engineering safety programs"
+    },
+    {
+      "id": 14,
+      "category": "tricky",
+      "question": "I see a program called M.Sc. Disaster Management and another called M.Sc. Disaster Mitigation Engineering. Which one is offered by the Civil Engineering department?",
+      "expected_behavior": "Should clarify which disaster-related program is in Civil Engineering"
+    },
+    {
+      "id": 15,
+      "category": "tricky",
+      "question": "I have a degree in Physics. Can I apply for M.Phil. Polymer Science & Technology, or is that only for chemical engineers?",
+      "expected_behavior": "Should return eligibility requirements for Polymer Science program"
+    }
+  ],
+  "out_of_scope_questions": [
+    {
+      "id": 16,
+      "category": "out_of_scope",
+      "question": "What is the fee structure for the M.Sc. programs?",
+      "expected_behavior": "Should trigger guardrail: 'I only answer department information.'"
+    },
+    {
+      "id": 17,
+      "category": "out_of_scope",
+      "question": "Are there hostel facilities available for postgraduate students at the Lahore campus?",
+      "expected_behavior": "Should trigger guardrail: 'I only answer department information.'"
+    },
+    {
+      "id": 18,
+      "category": "out_of_scope",
+      "question": "What is the last date to submit my admission form for the Spring 2026 session?",
+      "expected_behavior": "Should trigger guardrail: 'I only answer department information.'"
+    },
+    {
+      "id": 19,
+      "category": "out_of_scope",
+      "question": "Does the university provide transport/bus service for students commuting from other cities?",
+      "expected_behavior": "Should trigger guardrail: 'I only answer department information.'"
+    },
+    {
+      "id": 20,
+      "category": "out_of_scope",
+      "question": "Is there an entry test required for the MS programs? If so, what is the passing score?",
+      "expected_behavior": "Should trigger guardrail: 'I only answer department information.'"
+    }
+  ]
+}
