@@ -2,6 +2,8 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot system for answering department-related questions from the UET Lahore prospectus. Built with local embeddings, ChromaDB vector storage, and Gemma-2 language model.
 
+Presentation_LINK: https://youtu.be/QgRsAoSN--g
+
 ## 🎓 Project Overview
 
 This project implements a complete RAG pipeline that:
@@ -175,3 +177,4 @@ uet-rag-chatbot/
 ## 📝 License
 
 Educational project for NLP class.
+
